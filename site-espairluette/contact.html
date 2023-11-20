@@ -12,19 +12,79 @@
         <!--Navigation principale-->
         <nav>
             <div>
-                <img src="" alt="Logo Espairluette">
+                <img src="images/entete/logo-espairluette-2.png" alt="Logo Espairluette">
                 <a href="index.html">Accueil</a>
                 <a href="">Écrire!</a>
                 <a href="repertoire.html">Répertoire</a>
                 <a href="a-propos.html">À Propos</a>
                 <a href="contact.html">Contact</a>
-                <img src="" alt="Barre de recherche">
-                <img src="" alt="Profil">
+                <img src="images/entete/loupe.png" alt="Barre de recherche">
+                <img src="images/entete/Image-profil.png" alt="Profil">
             </div>
         </nav>
     </header>
     <main>
-        L
+        <section>
+            <h1> Questions <img src="images/contact/Espairluette-qr.png" alt="&"> Réponses </h1>
+            <p>
+                Vous avez des questions? Un bogue? Des commentaires? Rejoignez nous
+                sur nos réseaux sociaux ou laissez-nous un message dans le formulaire
+                suivant et nous aurons le plaisir de vous répondre!
+            </p>
+            <span><img src="images/contact/logo-x.png" alt="X">@espairluettejeu</span>
+            <span><img src="images/contact/logo-instagram.png" alt="Instagram">@espairluette_jeu</span>
+        </section>
+        <form action="">
+            <fieldset>
+                <section>
+                    <legend>Formulaire de communication</legend>
+                </section>
+                <section>
+                    <div>
+                        <label for="nom">Nom complet<span class="requis">*</span></label><br>
+                        <input type="text" name="nom" id="nom" required>
+                    </div>
+                    <div>
+                        <label for="pronoms">Pronoms</label><br>
+                        <input type="checkbox" name="pronoms" id="il"> <label for="il">Il</label>
+                        <input type="checkbox" name="pronoms" id="elle"> <label for="elle">Elle</label>
+                        <input type="checkbox" name="pronoms" id="iel"> <label for="iel">Iel</label>
+                        <input type="checkbox" name="pronoms" id="autre"> <label for="autre">Autre</label>
+                    </div>
+                    <div>
+                        <label for="courriel">Adresse courriel</label> <br>
+                        <input type="email" name="courriel" id="courriel" required>
+                    </div>
+                    <div>
+                        <label for="telephone">Téléphone<span class="requis">*</span></label><br>
+                        (<input type="tel" name="telephone1" id="telephone" pattern="[0-9]{3}" placeholder="###" size="2" required>)
+                        <input type="tel" name="telephone2" id="telephone" pattern="[0-9]{3}" placeholder="###" size="2" required> -
+                        <input type="tel" name="telephone3" id="telephone" pattern="[0-9]{4}" placeholder="####" size="3" required>
+                    </div>
+                    <div>
+                        <label for="sujet">Sujet<span class="requis">*</span></label><br>
+                        <input type="text" name="sujet" id="sujet">
+                    </div>
+                    <div>
+                        <label for="categorie">Catégorie<span class="requis">*</span></label><br>
+                        <select name="categorie" id="categorie">
+                            <option value="autre">Autre</option>
+                            <option value="bogue">Bogue</option>
+                            <option value="commentaire">Commentaire</option>
+                            <option value="probleme">Problème</option>
+                            <option value="question">Question</option>
+                        </select>
+                    </div>
+                </section>
+                <section>
+                    <label for="message">Message à envoyer<span class="requis">*</span></label><br>
+                    <textarea name="message" id="message" cols="200" rows="10" required></textarea>
+                </section>
+                <section>
+                    <input type="submit" name="envoyer" id="envoyer" value="& on envoie!">
+                </section>
+            </fieldset>
+        </form>
     </main>
     <footer>
         <a href="#header">Retour en haut</a>
@@ -32,8 +92,8 @@
             <a href="a-propos.html">Découvrez l'équipe</a>
             |
             <a href="contact.html">Contactez nous</a>
-            <img src="" alt="lien X">
-            <img src="" alt="lien Instagram">
+            <img src="images/basdepage/logo-x.png" alt="lien X">
+            <img src="images/basdepage/logo-instagram.png" alt="lien Instagram">
         </div>
     </footer>
 </body>
