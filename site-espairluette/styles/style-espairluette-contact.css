@@ -1,0 +1,76 @@
+body {
+    background-color: #e3e3e3;
+    color: #000;
+}
+
+.page-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.requis{
+    color: red;
+}
+
+.qr{
+    display: flex;
+    width: 1019px;
+    height: 267px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 1057px;
+    height: 298px;
+    background: #C8C8C8;
+}
+.qr h1{
+    color: #000;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.qr p{
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.formulaire{
+    width: 1057px;
+    height: 814px;
+    background: #C8C8C8;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.formulaire .informations{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.formulaire .input-text{
+    width: 465px;
+    height: 30px;
+}
+.formulaire select{
+    width: 465px;
+    height: 30px;
+}
+.formulaire .input-checkbox{
+    width: 30px;
+    height: 30px;
+}
+.formulaire .input-tel{
+    height: 30px;
+}
+input:invalid{
+    background-color: rgb(255, 230, 230);
+}
+input{
+    border: white solid 1px;
+}
