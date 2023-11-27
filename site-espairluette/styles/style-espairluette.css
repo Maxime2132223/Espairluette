@@ -1,0 +1,59 @@
+@font-face {
+    font-family: SometypeMono;
+    src: url("../police/SometypeMono-VariableFont_wght.ttf");
+}
+
+body{
+    font-family: SometypeMono;
+}
+
+header{
+    background-image: url("../images/entete/fond-entete.png");
+    width: auto;
+    height: 145px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap:nowrap;
+    height: 145px;
+}
+    
+
+.text-header{
+    align-items: baseline;
+    width:1000px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header .a{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    text-decoration-line: underline;
+}
+
+header .logo {
+    width: 298.76px;
+    height: 150px;
+}
+
+header .profil{
+    width: 85px;
+    height: 85px;
+    background: lightgray 50%/ cover no-repeat;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+}
+
+.input-image {
+    src: url("../images/entete/loupe.png");
+    background: lightgray 50%/ cover no-repeat;
+}
