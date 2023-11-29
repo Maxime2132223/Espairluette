@@ -6,7 +6,7 @@
         <link href="styles/style-espairluette.css" rel="stylesheet">
         <link href="styles/style-espairluette-apropos.css" rel="stylesheet">
     </head>
-    <body>
+    <body class="background">
         <header clas="header">
             <!--Navigation principale-->
             <nav>
@@ -26,17 +26,20 @@
             </nav>
         </header>
         <main>
-            <!--À propos-->
             <section>
-                <h1>À propos</h1>
-                <!--Photo d'équipe à gauche-->
-                <div class="img-equipe">
-                    <img src="images/apropos/photo-déquipe.png" alt="Photo de l'équipe">
+                <!--À propos-->
+                <div class="tache-apropos">
+                    <h1>À propos</h1>
                 </div>
-                <!--Texte avec logo description du site-->
+                <!--Photo d'équipe à gauche-->
                 <div class="apropos">
-                    <img class="logo" src="images/apropos/logo-apropos.png" alt="Logo Espairluette">
-                    <p class="text-apropos">
+                    <img class="img-equipe" src="images/apropos/photo-déquipe.png" alt="Photo de l'équipe">
+                    <!--Texte avec logo description du site-->
+                    <div class="text-apropos">
+                        <div class="logo">
+                            <img src="images/apropos/logo-apropos.png" alt="Logo Espairluette">
+                        </div>
+                        <p >
                         Chez Espairluette, nous vous 
                         invitons à déchainer votre 
                         créativité sur des cadavres 
@@ -50,13 +53,18 @@
                         et majestueuses deviendrez-
                         vous l’auteur.e?
                     </p>
+                    </div>
                 </div>
             </section>
             <!--Séparateur de section-->
-            <img class="seperateur" src="images/apropos/ZigZag.png" alt="Ligne noire zigzag courbe">
-            <!--Aspect visuel et contenu du site-->
+            <div class="seperateur" >
+                <img  src="images/apropos/ZigZag.png" alt="Ligne noire zigzag courbe">
+            </div>
             <section>
-                <h2>Aspect visuel et contenu du site</h2>
+                <!--Aspect visuel et contenu du site-->
+                <div class="tache-aspect">
+                    <h2>Aspect visuel et contenu du site</h2>
+                </div>
                 <!--Paragraphe 1-->
                 <div class="text-description">
                     <p>
@@ -116,7 +124,9 @@
                 </div>
             </section>
             <!--Séparateur de section-->
-            <img class="separateur" src="images/apropos/ZigZag.png" alt="Ligne noire zigzag courbe">
+            <div class="seperateur" >
+                <img  src="images/apropos/ZigZag.png" alt="Ligne noire zigzag courbe">
+            </div>
             <!--Rétroaction-->
             <aside class="text-retour">
                 <!--Maxime-->
