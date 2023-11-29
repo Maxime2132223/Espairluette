@@ -1,0 +1,49 @@
+h1{
+    background-image: url("../images/apropos/tache-a-propos.png");
+    width: 692px;
+    height: 412px;
+    color: white;
+    font-size: 96px;
+}
+
+h2{
+
+}
+
+.apropos{
+    display:flex
+}
+
+.img-equipe{
+    width: 429px;
+    height: 632px;
+}
+
+.text-apropos{
+    width: 625px;
+    height: 632px;
+}
+
+p{
+
+}
+
+.text-description{
+    width: 1174px;
+    height: auto;
+    background-color: #D9D9D9;
+}
+
+.logo{
+    width: 28.54px;
+    height: 31.065px;
+    align-content: center;
+}
+
+.separateur{
+
+}
+
+body{
+
+}
