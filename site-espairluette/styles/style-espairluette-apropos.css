@@ -1,0 +1,86 @@
+h1{
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    font-size: 96px;
+}
+
+.tache-apropos{
+    background-image: url("../images/apropos/tache-a-propos.png");
+    background-size: cover;
+    position: absolute;
+    top: 75px;
+    left: 200px;
+    width: 692px;
+    height: 412px;
+    color: white;
+}
+
+.tache-aspect{
+    background-image: url("../images/apropos/tache-aspect-visuel.png");
+    color: white;
+}
+
+.apropos{
+    justify-content:center;
+    display:flex;
+    margin: 200px;
+    margin-bottom: 100px;
+}
+
+.img-equipe{
+    width: 429px;
+    height: 632px;
+}
+
+.text-apropos{
+    width: 625px;
+    height: 632px;
+    background: #D2D2D2;
+    font-size: 32px;
+}
+
+.text-apropos .logo{
+    width: 139px;
+    justify-content: center;
+}
+
+.text-apropos p{
+    margin: 5%;
+    margin-top: 0%;
+}
+
+.text-description{
+    justify-content: center;
+    width: 1174px;
+    height: auto;
+    background-color: #D9D9D9;
+}
+
+.text-description .logo{
+    width: 28.54px;
+    height: 31.065px;
+    justify-content: center;
+}
+
+.Maxime{
+    justify-content: center;
+    width: 1174px;
+    height: auto;
+    background-color: #D9D9D9;
+}
+
+.Charlotte{
+    justify-content: center;
+    width: 1174px;
+    height: auto;
+    background-color: #D9D9D9;
+}
+
+.separateur{
+    align-items: stretch;
+}
+
+.background{
+    background-image: url("../images/apropos/Background_apropos.png");
+}
