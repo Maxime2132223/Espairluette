@@ -4,6 +4,7 @@
 }
 body{
     font-family: SometypeMono;
+    background-image: url("../images/contact/Background_Contact.png")
 }
 
 .contact main{
@@ -123,3 +124,4 @@ textarea{
     align-self: center;
     margin-top: 46px;
 }
+

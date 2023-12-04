@@ -4,21 +4,29 @@
 <head>
     <meta charset="utf-8" >
     <title>Repertoire - Espairluette</title>
+    <link href="styles/style-espairluette.css" rel="stylesheet" >
     <link href="styles/style-espairluette-repertoire.css" rel="stylesheet" >
 </head>
 
 <body class="repertoire">
-    <header id="header">
+    <header clas="header">
         <!--Navigation principale-->
         <nav>
-            <img src="images/entete/logo-espairluette-2.png" alt="Logo Espairluette" height="150px">
-            <a href="index.html">Accueil</a>
-            <a href="">Écrire!</a>
-            <a href="repertoire.html">Styles</a>
-            <a href="a-propos.html">À Propos</a>
-            <a href="contact.html">Contact</a>
-            <img src="images/entete/loupe.png" alt="Barre de recherche">
-            <img src="images/entete/Image-profil.png" alt="Profil">
+            <img class="logo" src="images/entete/logo-espairluette-2.png" alt="Logo Espairluette">
+            <div class="text-header">
+                <a href="index.html">Accueil</a>
+                <a href="">Écrire!</a>
+                <a href="repertoire.html">Répertoire</a>
+                <a href="a-propos.html">À Propos</a>
+                <a href="contact.html">Contact</a>
+                <div class="recherche">
+                    <input type="text" type="image" name="recherche" id="recherche" placeholder="rechercher" required class="input-image">
+                    <img src="images/entete/loupe.png" alt="Barre de recherche">
+                </div>
+                <div class="profil">
+                    <img  src="images/entete/Image-profil.png" alt="Profil">
+                </div>
+            </div>
         </nav>
     </header>
     <main>
@@ -238,10 +246,11 @@
 
     <footer>
         <a href="#header">Retour en haut</a>
-        <div>
+        <div class="text-footer">
             <a href="a-propos.html">Découvrez l'équipe</a>
-            |
             <a href="contact.html">Contactez nous</a>
+        </div>
+        <div class="logo">
             <img src="images/basdepage/logo-x.png" alt="lien X">
             <img src="images/basdepage/logo-instagram.png" alt="lien Instagram">
         </div>

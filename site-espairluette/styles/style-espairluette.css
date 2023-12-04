@@ -1,5 +1,6 @@
 html body{
-    max-width: fixed 100%;
+    min-zoom: 125%;
+    max-zoom: 150%;
     max-width: fixed 1440px; 
 	margin: 0 auto; 
 	float: none; 
@@ -17,8 +18,11 @@ body{
 }
 
 header{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
     background-image: url("../images/entete/fond-entete.png");
-    width: auto;
+    width: fixed 1440px;
     height: 145px;
 }
 
@@ -29,6 +33,7 @@ nav{
     justify-content: center;
     flex-wrap:nowrap;
     height: 145px;
+    width:auto;
 }
     
 
@@ -43,8 +48,8 @@ nav{
     display: flex;
     justify-content: space-evenly;
     position: absolute;
-    top: 90px;
-    left: 25%;
+    top: 30px;
+    left: 20%;
 }
 
 header .logo {
@@ -57,16 +62,45 @@ header .profil{
     width: 85px;
     height: 85px;
     background: lightgray 50%/ cover no-repeat;
-    position: absolute;
-    top: 60px;
-    right: 8px;
+    display: flex;
+    align-content: right;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    top: 70%;
+    left: 3.5%;
 }
 
 header .recherche{
     width:auto;
 }
 
-.input-image {
+.input{
     src: url("../images/entete/loupe.png");
     background: lightgray 50%/ cover no-repeat;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #A9A9A9;
+    margin-top: 10%;
+    border-top: 20%;
+    height: 163px;
+}
+
+.text-footer{
+    justify-content: center;
+    font-size: 36px;
+    margin: 50px;
+}
+
+footer .logo{
+    display: flex;
+    flex-direction:; column;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: nowrap;
+    width: 32px;
+    height: 32px;
 }

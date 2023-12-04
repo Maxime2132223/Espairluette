@@ -1,13 +1,16 @@
 video{
     display: flex;
     align-content: center;
+    justify-content: center;
     width: auto;
+    height: 637px;
+    border: 0%;
 }
 
 .tache-histoire{
     background-image: url("../images/accueil/Tache.png");
     width: 669.336px;
-    height: 179.039px;
+    height: 250px;
     position: absolute;
     left: 50%;
     top: 60%;
