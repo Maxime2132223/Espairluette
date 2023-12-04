@@ -5,38 +5,45 @@
         <meta charset="utf-8" >
         <title>Accueil - Espairluette</title>
         <link href="styles/style-espairluette.css" rel="stylesheet" >
+        <link href="styles/style-espairluette-index.css" rel="stylesheet" >
     </head>
 
-    <body>
-        <header id="header">
+    <body class="background">
+        <header clas="header">
             <!--Navigation principale-->
             <nav>
-                <div>
-                    <img class="logo" src="images/entete/logo-espairluette-2.png" alt="Logo Espairluette">
+                <img class="logo" src="images/entete/logo-espairluette-2.png" alt="Logo Espairluette">
+                <div class="text-header">
                     <a href="index.html">Accueil</a>
                     <a href="">Écrire!</a>
                     <a href="repertoire.html">Répertoire</a>
                     <a href="a-propos.html">À Propos</a>
                     <a href="contact.html">Contact</a>
-                    <input type="text" type="image" name="recherche" id="recherche" placeholder="rechercher" required class="input-image">
-                    <img src="images/entete/loupe.png" alt="Barre de recherche">
-                    <img class="profil" src="images/entete/Image-profil.png" alt="Profil">
+                    <div class="recherche">
+                        <input type="text" type="image" name="recherche" id="recherche" placeholder="rechercher" required class="input-image">
+                        <img src="images/entete/loupe.png" alt="Barre de recherche">
+                    </div>
+                    <div>
+                        <img class="profil" src="images/entete/Image-profil.png" alt="Profil">
+                    </div>
                 </div>
             </nav>
         </header>
         <main>
             <section>
                 <!--Video-->
-                <video src="videos/Video.mp4" width="1440" height="635" preload="auto" loop autoplay></video> 
+                <video src="videos/Video.mp4" width="auto" height="720" preload="auto" loop autoplay></video> 
                 <!--Bouton créer une nouvelle histoire-->
-                <a href="">Créer une nouvelle histoire</a>
+                <div class="tache-histoire">
+                    <a href="">Créer une nouvelle <br/>  histoire</a>
+                </div>
             </section>
             <section id="alaune">
                 <!--À la une-->
                 <h2>À la une</h2>
                 <!--Bouton voir plus-->
                 <img src="images/accueil/voir-plus-accueil.png" alt="bouton voir plus">
-                <section>
+                <section class="categorie">
                     <!--Beinvenue à PerfectWorld-->
                     <div class="parent">
                         <img class="couverture" src="images/accueil/SciFi_1.png" alt="Image de l'histoire Bienvenue à Perfectworld">
@@ -66,13 +73,13 @@
                 </section>
             </section>
             <!--Séparateur de section-->
-            <img src="images/accueil/ZigZag.png">
-            <section id="alaune">
+            <img class="separateur" src="images/accueil/ZigZag.png">
+            <section id="nouveautes">
                 <!--Nouveautés-->
                 <h2>Nouveautés</h2>
                 <!--Bouton voir plus-->
                 <img src="images/accueil/voir-plus-accueil.png" alt="bouton voir plus">
-                <section>
+                <section class="categorie">
                     <!--Coeur de la scierie-->
                     <div class="parent">
                         <img class="couverture" src="images/accueil/Poésie_3.png" alt="Image de l'histoire Coeur de la scierie">
@@ -102,7 +109,7 @@
                 </section>
             </section>
             <!--Séparateur de section-->
-            <img src="images/accueil/ZigZag.png">
+            <img class="separateur" src="images/accueil/ZigZag.png">
             <section>
                 <!--Gagnant-->
                 <h3>Gagnant du derner concours d'écriture</h3>

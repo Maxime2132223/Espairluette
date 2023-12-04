@@ -1,0 +1,78 @@
+video{
+    display: flex;
+    align-content: center;
+    width: auto;
+}
+
+.tache-histoire{
+    background-image: url("../images/accueil/Tache.png");
+    width: 669.336px;
+    height: 179.039px;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    background-repeat: no-repeat;
+    background-position: 50% 75%;
+    text-align: center;
+    font-size: 36px;
+}
+
+#alaune h2 {
+    background-image: url("../images/accueil/Tache_a_la_une.png");
+    background-repeat: no-repeat;
+    background-position: 0% 70%;
+    color: white;
+    font-size: 36px;
+}
+
+#nouveautes h2 {
+    background-image: url("../images/accueil/Tache_nouveautes.png");
+    background-repeat: no-repeat;
+    background-position: 0% 70%;
+    color: white;
+    font-size: 36px;
+}
+
+.categorie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.parent{
+    position: relative;
+}
+.couverture {
+    width: 250px;
+}
+.indice {
+    background-image: url("../images/repertoire/Indice\ de\ participants.png");
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 16px 13px 16px 42px;
+    height: 18px;
+    width: 56px;
+    text-align: center;
+    position: absolute;
+    bottom: 45px;
+    right: -15px;
+}
+.titre{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 9px;
+    padding: 9px 0px 9px 0px;
+    width: 250px;
+    background: rgba(194, 194, 194, 0.70);
+}
+
+.separateur {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background{
+    background-image: url("../images/accueil/Background\ 2.png");
+}

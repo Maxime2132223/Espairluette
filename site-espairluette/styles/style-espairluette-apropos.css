@@ -79,6 +79,10 @@ h1{
 
 .separateur{
     align-items: stretch;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .background{
