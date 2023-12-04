@@ -1,5 +1,12 @@
+@font-face {
+    font-family: SometypeMono;
+    src: url("../police/SometypeMono-VariableFont_wght.ttf");
+}
+body{
+    font-family: SometypeMono;
+}
 
-.page-contact{
+.contact main{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,10 +24,13 @@
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    width: 1057px;
-    height: 298px;
+    width: 1037px;
+    height: 278px;
     background: #C8C8C8;
+    margin: 60px;
+    padding: 20px;
 }
+
 .qr h1{
     color: #000;
     text-align: center;
@@ -29,6 +39,7 @@
     font-weight: 400;
     line-height: normal;
 }
+
 .qr p{
     font-size: 26px;
     font-style: normal;
@@ -37,36 +48,78 @@
 }
 
 .formulaire{
-    width: 1057px;
-    height: 814px;
+    width: 1017px;
+    height: 774px;
     background: #C8C8C8;
     font-size: 20px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 60px;
+    padding: 40px;
 }
+
+legend{
+    font-size: 36px;
+    font-weight: 700;
+}
+
 .formulaire .informations{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: auto;
 }
+
+.formulaire .informations-interne{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+}
+
 .formulaire .input-text{
     width: 465px;
     height: 30px;
 }
+
 .formulaire select{
     width: 465px;
     height: 30px;
 }
+
 .formulaire .input-checkbox{
     width: 30px;
     height: 30px;
 }
+
 .formulaire .input-tel{
     height: 30px;
 }
+
 input:invalid{
     background-color: rgb(255, 230, 230);
 }
+
 input{
     border: white solid 1px;
+    margin-top: 15px;
+}
+
+select{
+    margin-top: 15px;
+}
+
+textarea{
+    width: 1017px;
+    margin-top: 15px;
+}
+
+.formulaire .bouton{
+    height: 64px;
+    width: 318px;
+    text-align: center;
+    font-size: 36px;
+    align-self: center;
+    margin-top: 46px;
 }

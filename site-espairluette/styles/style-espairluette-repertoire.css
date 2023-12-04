@@ -1,3 +1,11 @@
+@font-face {
+    font-family: SometypeMono;
+    src: url("../police/SometypeMono-VariableFont_wght.ttf");
+}
+body{
+    font-family: SometypeMono;
+}
+
 .intro-repertoire {
     display: flex;
     justify-content: space-around;
@@ -10,9 +18,10 @@
     background-position: 0% 70%;
     width: 407px;
     height: 109px;
+    padding: 40px 110px 40px 90px;
     color: white;
     font-size: 70px;
-    padding: 40px 100px 40px 100px;
+
 }
 
 .etiquettes {
@@ -26,6 +35,8 @@
 .etiquettes a {
     background-image: url("../images/repertoire/etiquette.png");
     font-size: 20px;
+    color: black;
+    font-weight: 500;
     width: 82px;
     height: 23px;
     padding: 10px 39px 10px 64px;
@@ -35,8 +46,13 @@
     background-image: url("../images/repertoire/tache-categorie-style.png");
     background-repeat: no-repeat;
     background-position: 0% 70%;
+    width: 170px;
+    height: 50px;
+    padding: 20px 45px 20px 55px;
+    margin: 5px;
     color: white;
     font-size: 36px;
+    text-align: center;
 }
 
 .categorie {
@@ -64,7 +80,7 @@
     right: -15px;
 }
 .titre{
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     margin-top: 9px;
     padding: 9px 0px 9px 0px;
