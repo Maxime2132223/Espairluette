@@ -1,125 +1,134 @@
 <!DOCTYPE html>
 <html lang="fr">
-
     <head>
         <meta charset="utf-8" >
         <title>Accueil - Espairluette</title>
         <link href="styles/style-espairluette.css" rel="stylesheet" >
         <link href="styles/style-espairluette-index.css" rel="stylesheet" >
     </head>
-
     <body class="background">
-        <header clas="header">
+        <header id="header">
             <!--Navigation principale-->
             <nav>
-                <img class="logo" src="images/entete/logo-espairluette-2.png" alt="Logo Espairluette">
+                <span>
+                    <img class="logo" src="images/entete/logo-espairluette-2.png" alt="Logo Espairluette">
+                </span>
                 <div class="text-header">
-                    <a href="index.html">Accueil</a>
-                    <a href="">Écrire!</a>
-                    <a href="repertoire.html">Répertoire</a>
-                    <a href="a-propos.html">À Propos</a>
-                    <a href="contact.html">Contact</a>
-                    <div class="recherche">
-                        <input type="text" type="image" name="recherche" id="recherche" placeholder="rechercher" required class="input-image">
-                        <img src="images/entete/loupe.png" alt="Barre de recherche">
-                    </div>
-                    <div class="profil">
+                    <span>
+                        <a href="index.html">Accueil</a>
+                        <a href="">Écrire!</a>
+                        <a href="repertoire.html">Répertoire</a>
+                        <a href="a-propos.html">À Propos</a>
+                        <a href="contact.html">Contact</a>
+                        <span class="recherche">
+                            <input type="text" type="image" name="recherche" id="recherche" placeholder="rechercher" required class="input-image">
+                            <img src="images/entete/loupe.png" alt="Barre de recherche">
+                        </span>
+                    </span>
+                    <span class="profil">
                         <img  src="images/entete/Image-profil.png" alt="Profil">
-                    </div>
+                    </span>
                 </div>
             </nav>
         </header>
         <main>
-            <section class="parent">
-                <!--Video-->
-                <video src="videos/Video.mp4" width="1280" height="" preload="auto" loop autoplay></video> 
-                <!--Bouton créer une nouvelle histoire-->
-                <div class="tache-histoire">
-                    <a href="">Créer une nouvelle <br/>  histoire</a>
+            <!--Video-->
+            <section>
+                <div class="banner">
+                    <video src="videos/Video.mp4" width="1280" height="" preload="auto" loop autoplay></video> 
+                    <div class="tache-histoire">
+                        <a href="">Créer une nouvelle <br/>  histoire</a>
+                    </div>
                 </div>
             </section>
+            <!--À la une-->
             <section id="alaune">
-                <!--À la une-->
-                <h2>À la une</h2>
-                <!--Bouton voir plus-->
-                <img src="images/accueil/voir-plus-accueil.png" alt="bouton voir plus">
+                <div class="precategorie">
+                    <span><h2>À la une</h2></span>
+                    <span><img src="images/accueil/voir-plus-accueil.png" alt="bouton voir plus"></span>
+                </div>
                 <section class="categorie">
                     <!--Beinvenue à PerfectWorld-->
                     <div class="parent">
                         <img class="couverture" src="images/accueil/SciFi_1.png" alt="Image de l'histoire Bienvenue à Perfectworld">
                         <div class="indice">357.2K</div>
-                        <div>Bienvenue à Perfectworld</div>
+                        <div class="titre">Bienvenue à Perfectworld</div>
                     </div>
                     <!--Logo-->
-                    <div>
+                    <div class="logo">
                         <img src="images/accueil/logo-espairluette-accueil.png" alt="Logo Espairluette">
                     </div>
                     <!--Le Pic Perdu-->
                     <div class="parent">
                         <img class="couverture" src="images/accueil/Aventure_1.png" alt="Image de l'histoire Le Pic Perdu">
                         <div class="indice">342.3K</div>
-                        <div>Le Pic Perdu</div>
+                        <div class="titre">Le Pic Perdu</div>
                     </div>
                     <!--Logo-->
-                    <div>
+                    <div class="logo">
                         <img src="images/accueil/logo-espairluette-accueil.png" alt="Logo Espairluette">
                     </div>
                     <!--En quête de remède-->
                     <div class="parent">
                         <img class="couverture" src="images/accueil/Fantaisie_1.jpg" alt="Image de l'hisoire En quête de remède">
                         <div class="indice">242.1K</div>
-                        <div>En quête du remède</div>
+                        <div class="titre">En quête du remède</div>
                     </div>
                 </section>
             </section>
             <!--Séparateur de section-->
             <img class="separateur" src="images/accueil/ZigZag.png">
+            <!--Nouveautés-->
             <section id="nouveautes">
-                <!--Nouveautés-->
-                <h2>Nouveautés</h2>
-                <!--Bouton voir plus-->
-                <img src="images/accueil/voir-plus-accueil.png" alt="bouton voir plus">
+                <div class="precategorie">
+                    <span><h2>Nouveautés</h2></span>
+                    <span><img src="images/accueil/voir-plus-accueil.png" alt="bouton voir plus"></span>
+                </div>
                 <section class="categorie">
                     <!--Coeur de la scierie-->
                     <div class="parent">
                         <img class="couverture" src="images/accueil/Poésie_3.png" alt="Image de l'histoire Coeur de la scierie">
                         <div class="indice">46.3K</div>
-                        <div>Coeur de la scierie</div>
+                        <div class="titre">Coeur de la scierie</div>
                     </div>
                     <!--Logo-->
-                    <div>
+                    <div class="logo" >
                         <img src="images/accueil/logo-espairluette-accueil.png" alt="Logo Espairluette">
                     </div>
                     <!--Un monde caché-->
                     <div class="parent">
                         <img class="couverture" src="images/accueil/Mystère_3.png" alt="Image de l'histoire Un monde caché">
                         <div class="indice">76.2K</div>
-                        <div>Un monde caché</div>
+                        <div class="titre">Un monde caché</div>
                     </div>
                     <!--Logo-->
-                    <div>
+                    <div class="logo">
                         <img src="images/accueil/logo-espairluette-accueil.png" alt="Logo Espairluette">
                     </div>
                     <!--Nouvelle vie-->
                     <div class="parent">
                         <img class="couverture" src="images/accueil/Romance_3.png" alt="Image de l'hisoire Nouvelle vie">
                         <div class="indice">94.2K</div>
-                        <div>Nouvelle vie</div>
+                        <div class="titre">Nouvelle vie</div>
                     </div>
                 </section>
             </section>
             <!--Séparateur de section-->
             <img class="separateur" src="images/accueil/ZigZag.png">
-            <section>
-                <!--Gagnant-->
-                <h3>Gagnant du derner concours d'écriture</h3>
+            <section class="gagnant">
+                <div>
+                   <!--Gagnant-->
+                <div class="titre-gagnant">
+                    <h3>Gagnant du dernier concours d'écriture</h3>
+                </div>
                 <!--Video YT-->
-                <iframe width="1280" height="720"
+                <iframe width="960" height="520"
                     src ="https://youtube.com/embed/sescmlsw82Y"
                     title="Cadavre Exquis #1" frameborder="0"
                     allow="accelerometer; autoplay; picture-in-picture; web-share"
                     allowfullscreen>
-                </iframe>
+                </iframe> 
+                </div>
             </section>
         </main>
         <!--Bas de page-->
@@ -130,8 +139,12 @@
                 <a href="contact.html">Contactez nous</a>
             </div>
             <div class="logo">
-                <img src="images/basdepage/logo-x.png" alt="lien X">
-                <img src="images/basdepage/logo-instagram.png" alt="lien Instagram">
+                <span>
+                    <img src="images/basdepage/logo-x.png" alt="lien X">
+                </span>
+                <span>
+                    <img src="images/basdepage/logo-instagram.png" alt="lien Instagram">
+                </span>
             </div>
         </footer>
     </body>

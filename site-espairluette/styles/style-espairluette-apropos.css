@@ -5,6 +5,16 @@ h1{
     font-size: 96px;
 }
 
+.parent{
+    position:relative;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
 .tache-apropos{
     background-image: url("../images/apropos/tache-a-propos.png");
     background-size: cover;
@@ -26,6 +36,7 @@ h1{
     display:flex;
     margin: 200px;
     margin-bottom: 100px;
+    width: 1100px;
 }
 
 .img-equipe{
@@ -34,7 +45,7 @@ h1{
 }
 
 .text-apropos{
-    width: 625px;
+    width: 525px;
     height: 632px;
     background: #D2D2D2;
     font-size: 32px;
@@ -42,7 +53,10 @@ h1{
 
 .text-apropos .logo{
     width: 139px;
-    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 20px;
 }
 
 .text-apropos p{
@@ -51,35 +65,48 @@ h1{
 }
 
 .text-description{
-    justify-content: center;
     width: 1174px;
     height: auto;
     background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    font-size: 28px;
+    line-height: 40px;
+    margin: 30px;
+}
+
+.text-descriptipn p{
+    margin: 20 px;
 }
 
 .text-description .logo{
     width: 28.54px;
     height: 31.065px;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .Maxime{
-    justify-content: center;
     width: 1174px;
     height: auto;
     background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
 }
 
 .Charlotte{
-    justify-content: center;
     width: 1174px;
     height: auto;
     background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
 }
 
 .separateur{
-    align-items: stretch;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     display: block;
     margin-left: auto;
     margin-right: auto;

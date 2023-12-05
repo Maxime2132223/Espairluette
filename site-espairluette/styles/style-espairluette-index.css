@@ -1,39 +1,80 @@
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+
 video{
     display: flex;
     align-content: center;
     justify-content: center;
-    width: auto;
+    width: 1440px;
     height: 637px;
     border: 0%;
 }
 
 .tache-histoire{
     background-image: url("../images/accueil/Tache.png");
-    width: 669.336px;
-    height: 250px;
-    position: absolute;
-    left: 50%;
-    top: 60%;
+    width: 400px;
+    height: 175px;
     background-repeat: no-repeat;
-    background-position: 50% 75%;
+    background-position: 0% 70%;
     text-align: center;
+    padding: 20px 45px 20px 55px;
+    margin: 5px;
     font-size: 36px;
+    position: absolute;
+    top: 450px;
+}
+
+#alaune{
+    margin: 20px;
 }
 
 #alaune h2 {
     background-image: url("../images/accueil/Tache_a_la_une.png");
     background-repeat: no-repeat;
     background-position: 0% 70%;
+    width: 250px;
+    height: 75px;
+    padding: 20px 45px 20px 55px;
+    margin: 5px;
     color: white;
     font-size: 36px;
+}
+
+#alaune .logo{
+    align-content: center;
+    position: relative;
+    top: 50px;
+}
+
+#nouveautes{
+    margin: 20px;
 }
 
 #nouveautes h2 {
     background-image: url("../images/accueil/Tache_nouveautes.png");
     background-repeat: no-repeat;
     background-position: 0% 70%;
+    width: 250px;
+    height: 75px;
+    padding: 20px 45px 20px 55px;
+    margin: 5px;
     color: white;
     font-size: 36px;
+}
+
+#nouveates .logo{
+    align-content: center;
+    position: relative;
+    top: 50px;
+}
+
+.precategorie{
+    display: flex;
+    justify-content: space-between;
 }
 
 .categorie {
@@ -45,9 +86,11 @@ video{
 .parent{
     position: relative;
 }
+
 .couverture {
     width: 250px;
 }
+
 .indice {
     background-image: url("../images/repertoire/Indice\ de\ participants.png");
     background-repeat: no-repeat;
@@ -60,6 +103,7 @@ video{
     bottom: 45px;
     right: -15px;
 }
+
 .titre{
     font-size: 20px;
     text-align: center;
@@ -70,10 +114,35 @@ video{
 }
 
 .separateur {
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.gagnant{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.titre-gagnant{
+    font-size: 24px;
+    text-align: center;
+    background: rgba(194, 194, 194, 0.70);
+    width: 960px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+iframe{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 960px;
+    height: 520px;
 }
 
 .background{
