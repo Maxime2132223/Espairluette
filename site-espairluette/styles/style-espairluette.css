@@ -92,7 +92,7 @@ footer{
 
 footer .logo{
     display: flex;
-    flex-direction:; column;
+    flex-direction: column;
     justify-content: flex-end;
     align-content: center;
     flex-wrap: nowrap;

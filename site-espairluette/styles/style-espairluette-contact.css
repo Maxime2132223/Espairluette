@@ -1,9 +1,4 @@
-@font-face {
-    font-family: SometypeMono;
-    src: url("../police/SometypeMono-VariableFont_wght.ttf");
-}
 body{
-    font-family: SometypeMono;
     background-image: url("../images/contact/Background_Contact.png")
 }
 
@@ -46,6 +41,11 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.qr img{
+    margin-left: 20px;
+    margin-right: 10px;
 }
 
 .formulaire{
@@ -92,17 +92,18 @@ legend{
 .formulaire .input-checkbox{
     width: 30px;
     height: 30px;
+    margin-right: 0;
 }
 
 .formulaire .input-tel{
     height: 30px;
 }
 
-input:invalid{
+.formulaire input:invalid{
     background-color: rgb(255, 230, 230);
 }
 
-input{
+.formulaire input{
     border: white solid 1px;
     margin-top: 15px;
 }

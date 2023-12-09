@@ -1,10 +1,5 @@
-@font-face {
-    font-family: SometypeMono;
-    src: url("../police/SometypeMono-VariableFont_wght.ttf");
-}
 
 body{
-    font-family: SometypeMono;
     background-image: url("../images/repertoire/Background_Repertoire.png");
 }
 
