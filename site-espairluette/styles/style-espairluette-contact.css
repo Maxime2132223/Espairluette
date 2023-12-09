@@ -1,5 +1,6 @@
 body{
-    background-image: url("../images/contact/Background_Contact.png")
+    background-image: url("../images/contact/Background\ 3.png"); 
+    background-image: alpha 50%; 
 }
 
 .contact main{

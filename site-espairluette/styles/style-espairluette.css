@@ -40,6 +40,7 @@ nav{
     display: flex;
     justify-content: space-evenly;
     margin-top: 80px;
+    flex-wrap:nowrap;
 }
 
 header .logo {
@@ -48,7 +49,7 @@ header .logo {
     height: 150px;
 }
 
-header .profil{
+.profil{
     width: 85px;
     height: 85px;
     background: lightgray 50%/ cover no-repeat;
