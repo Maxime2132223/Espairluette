@@ -1,7 +1,4 @@
 html body{
-    min-zoom: 125%;
-    max-zoom: 150%;
-    max-width: fixed 1440px; 
 	margin: 0 auto; 
 	float: none;
     font-family: SometypeMono;
@@ -20,16 +17,16 @@ header{
     position: sticky;
     background-image: url("../images/entete/fond-entete.png");
     height: 145px;
+    width: 100%;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
     flex-wrap:nowrap;
     height: 145px;
-    width:auto;
+    width: 99%;
 }
     
 .text-header{
@@ -38,18 +35,16 @@ nav{
     font-weight: 400;
     color: black;
     align-items: baseline;
-    width:1000px;
+    width: 70%;
     height: 30px;
     display: flex;
     justify-content: space-evenly;
-    position: absolute;
-    top: 30px;
-    left: 20%;
+    margin-top: 80px;
 }
 
 header .logo {
     position: relative;
-    width: 298.76px;
+    width: fit-content;
     height: 150px;
 }
 
@@ -61,9 +56,7 @@ header .profil{
     align-content: right;
     flex-direction: column;
     justify-content: flex-end;
-    position: relative;
-    top: 70%;
-    left: 3.5%;
+    margin-top: 51px;
 }
 
 header .recherche{
