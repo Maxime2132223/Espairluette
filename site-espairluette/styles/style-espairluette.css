@@ -61,15 +61,15 @@ header .logo {
 
 
 
-.profil{
-    width: 85px;
-    height: 85px;
+.profil img{
+    width: 60px;
+    height: 60px;
     background: lightgray 50%/ cover no-repeat;
     display: flex;
     align-content: right;
     flex-direction: column;
     justify-content: flex-end;
-    margin-top: 51px;
+    margin-top: 65px;
 }
 
 .input{

@@ -104,6 +104,12 @@ video{
 
 .couverture {
     width: 250px;
+    height: auto;
+    transition: opacity 0.3s ease; 
+}
+
+.couverture:hover {
+    opacity: 0.8;
 }
 
 .indice {
