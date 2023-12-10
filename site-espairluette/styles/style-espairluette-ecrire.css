@@ -1,0 +1,46 @@
+.tache-histoire{
+    background-image: url("../images/ecrire/tache-titre.png");
+    position: relative;
+    background-repeat: no-repeat;
+    top: 46px;
+    left: 20px;
+    width: 692px;
+    height: 200px;
+}
+
+h1{
+    position: absolute;
+    color: white;
+    bottom: 50px;
+    left: 75px;
+    font-size: 30px;
+}
+
+p{
+    display: flex;
+    text-align:center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 50px;
+}
+
+.groupe-histosire .logo{
+    margin: 50px;
+}
+
+.groupe-histoire{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border: 20px;
+}
+
+.ecrire-ici{
+    width: auto;
+    margin: 30px;
+}
