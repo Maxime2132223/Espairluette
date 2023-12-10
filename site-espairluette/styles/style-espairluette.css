@@ -39,6 +39,8 @@ nav{
     height: 30px;
     display: flex;
     justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
     margin-top: 80px;
     flex-wrap:nowrap;
 }
@@ -60,10 +62,6 @@ header .logo {
     margin-top: 51px;
 }
 
-header .recherche{
-    width:auto;
-}
-
 .input{
     src: url("../images/entete/loupe.png");
     background: lightgray 50%/ cover no-repeat;
@@ -78,21 +76,32 @@ footer{
     height: 163px;
 }
 
+.retour{
+    margin: 20px;
+    font-size: 20px;
+}
+
 .text-footer{
-    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     font-size: 36px;
     margin: 50px;
 }
 
 footer .logo{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: row;
     justify-content: flex-end;
     align-content: center;
     flex-wrap: nowrap;
+}
+
+footer img{
     width: 32px;
     height: 32px;
-    margin: 20px;
+    margin: -80px;
     margin-right: 100px;
     margin-top: 50px;
     border: 20px;
