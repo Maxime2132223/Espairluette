@@ -11,6 +11,10 @@ html body{
     src: url("../police/SometypeMono-VariableFont_wght.ttf");
 }
 
+a {
+    color: black;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -34,7 +38,6 @@ nav{
     font-size: 24px;
     font-weight: 400;
     color: black;
-    align-items: baseline;
     width: 70%;
     height: 30px;
     display: flex;
@@ -42,11 +45,12 @@ nav{
     align-content: center;
     align-items: center;
     margin-top: 80px;
-    flex-wrap:nowrap;
+    flex-wrap: nowrap;
 }
 
-.text-header a {
-    color: black;
+.barre-recherche img {
+    position: relative;
+    top: 5px;
 }
 
 .conteneur-logo{
@@ -59,7 +63,9 @@ header .logo {
     height: 150px;
 }
 
-
+.page-actuelle{
+    color: red;
+}
 
 .profil img{
     width: 60px;
@@ -89,6 +95,7 @@ footer{
 .retour{
     margin: 20px;
     font-size: 20px;
+    color: red;
 }
 
 .text-footer{
@@ -115,8 +122,4 @@ footer img{
     margin-right: 100px;
     margin-top: 50px;
     border: 20px;
-}
-
-footer a{
-    color: black;
 }
