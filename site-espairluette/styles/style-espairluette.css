@@ -28,7 +28,7 @@ nav{
     height: 145px;
     width: 99%;
 }
-    
+  
 .text-header{
     text-align: center;
     font-size: 24px;
@@ -45,11 +45,21 @@ nav{
     flex-wrap:nowrap;
 }
 
+.text-header a {
+    color: black;
+}
+
+.conteneur-logo{
+    width: fit-content;
+}
+
 header .logo {
     position: relative;
     width: fit-content;
     height: 150px;
 }
+
+
 
 .profil{
     width: 85px;
@@ -105,4 +115,8 @@ footer img{
     margin-right: 100px;
     margin-top: 50px;
     border: 20px;
+}
+
+footer a{
+    color: black;
 }

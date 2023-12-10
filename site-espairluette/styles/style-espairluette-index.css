@@ -18,15 +18,19 @@ video{
 .tache-histoire{
     background-image: url("../images/accueil/Tache.png");
     width: 400px;
-    height: 175px;
+    height: 100px;
     background-repeat: no-repeat;
     background-position: 0% 70%;
     text-align: center;
-    padding: 20px 45px 20px 55px;
+    padding: 40px 85px 75px 30px;
     margin: 5px;
     font-size: 36px;
     position: absolute;
-    top: 200px;
+    top: 150px;
+}
+
+.tache-histoire a{
+    color: white;
 }
 
 #alaune{
@@ -38,8 +42,8 @@ video{
     background-repeat: no-repeat;
     background-position: 0% 70%;
     width: 250px;
-    height: 75px;
-    padding: 20px 45px 20px 55px;
+    height: 50px;
+    padding: 30px 45px 30px 55px;
     margin: 5px;
     color: white;
     font-size: 36px;
@@ -64,8 +68,8 @@ video{
     background-repeat: no-repeat;
     background-position: 0% 70%;
     width: 250px;
-    height: 75px;
-    padding: 20px 45px 20px 55px;
+    height: 50px;
+    padding: 30px 45px 30px 55px;
     margin: 5px;
     color: white;
     font-size: 36px;
@@ -81,6 +85,7 @@ video{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 }
 
 .precategorie img{
