@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="fr">
+
     <head>
         <meta charset="utf-8" >
         <title>Écrire! - Espairluette</title>
         <link href="styles/style-espairluette.css" rel="stylesheet" >
-        <link href="styles/style-espairluette-ecrire.css" rel="stylesheet" >
+        <link href="styles/style-espairluette-ecrire.css" rel="stylesheet">
     </head>
+
+    <audio id="clicBouton" src="sons/Son.mp3" preload="auto"></audio>
+
     <body>
+
         <header id="header">
             <!--Navigation principale-->
             <nav>
@@ -46,7 +51,7 @@
                     <section class="ecrire-ici">
                         <textarea name="message" id="message" cols="100" rows="10" placeholder="Écrire ici..." required></textarea>
                     </section>
-                    <input type="submit" name="envoyer" id="envoyer" value="& on envoie!" class="image">
+                    <input type="submit" name="envoyer" id="envoyer" value="& on envoie!" class="image" onclick="document.getElementById('clicBouton').play();">
                 </div>
             </section>
         </main>
